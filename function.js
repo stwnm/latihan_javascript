@@ -16,7 +16,7 @@
 function tambah() {
   var hasil = 0;
   for (i = 0; i < arguments.length; i++) {
-    hasil += Number(prompt("masukkan data"));
+    hasil += Number(prompt("masukkan nilai yang ingin ditambah :"));
   }
   return hasil;
 }
