@@ -7,6 +7,8 @@ function jumlahVolumeDuaKubus(a, b) {
   volumeB = b * b * b;
 
   total = volumeA + volumeB;
+
+  return total;
 }
 
 alert(jumlahVolumeDuaKubus(8, 3));
